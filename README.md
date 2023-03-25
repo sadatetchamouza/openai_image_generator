@@ -1,8 +1,6 @@
 # OpenaiImageGenerator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/openai_image_generator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Generate image with Open AI Image Generation Model
 
 ## Installation
 
@@ -37,8 +35,6 @@ result = OpenaiImageGenerator::Client.new(api_key).generate('a white siamese cat
 ### Open AI Image Generation Model
 
 OpenAI has a model that help you generate a new image given a prompt and/or an input image.
-
-#### Parameters
 
 
 ```ruby
