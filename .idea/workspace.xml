@@ -7,11 +7,18 @@
     <list default="true" id="0e4ba045-e93f-4585-9ec4-e4c737fd7207" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/openai_image_generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
@@ -65,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679755504055</updated>
       <workItem from="1679755505466" duration="11000" />
-      <workItem from="1679755574211" duration="6112000" />
+      <workItem from="1679755574211" duration="7291000" />
     </task>
     <servers />
   </component>
