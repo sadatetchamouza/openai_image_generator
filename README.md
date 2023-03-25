@@ -22,7 +22,43 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- Get your API key from [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
+
+- If you belong to multiple organizations, you can get your Organization ID from [https://beta.openai.com/account/org-settings](https://beta.openai.com/account/org-settings)
+
+### Quickstart
+
+For a quick test you can pass your api key directly to a new client:
+
+```ruby
+result = OpenaiImageGenerator::Client.new(api_key).generate('a white siamese cat', 2, '256x256')
+```
+
+### Open AI Image Generation Model
+
+OpenAI has a model that help you generate a new image given a prompt and/or an input image.
+
+#### Parameters
+
+
+```ruby
+api_key = "YOUR_API_KEY"
+
+# A text description of the desired image(s). The maximum length is 1000 characters.
+prompt = "A cute baby sea otter" 
+
+# The number of images to generate. Must be between 1 and 10.
+n = 2
+
+# The size of the generated images. Must be one of 256x256, 512x512, or 1024x1024.
+size = '256x256'
+
+result = OpenaiImageGenerator::Client.new(api_key).generate(prompt, n, size)
+
+puts result
+
+# => {"created"=>1676326332, "data"=>[{"url"=>"https://loremflickr.com/300/300"}, {"url"=>"https://loremflickr.com/300/300"}]}
+```
 
 ## Development
 

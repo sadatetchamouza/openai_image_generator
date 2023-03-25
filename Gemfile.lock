@@ -64,13 +64,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (>= 2)
+  bundler (~> 2)
   faker (~> 2.18)
   openai_image_generator!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
-  webmock (>= 3.8)
+  webmock (~> 3.8)
 
 BUNDLED WITH
    2.2.33
