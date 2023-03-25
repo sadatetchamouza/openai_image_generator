@@ -1,0 +1,75 @@
+PATH
+  remote: .
+  specs:
+    openai_image_generator (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    ast (2.4.2)
+    concurrent-ruby (1.2.2)
+    crack (0.4.5)
+      rexml
+    diff-lcs (1.5.0)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
+    hashdiff (1.0.1)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    json (2.6.3)
+    parallel (1.22.1)
+    parser (3.2.1.1)
+      ast (~> 2.4.1)
+    public_suffix (5.0.1)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    regexp_parser (2.7.0)
+    rexml (3.2.5)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.1)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.4)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+    rubocop (1.48.1)
+      json (~> 2.3)
+      parallel (~> 1.10)
+      parser (>= 3.2.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.26.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.28.0)
+      parser (>= 3.2.1.0)
+    ruby-progressbar (1.13.0)
+    unicode-display_width (2.4.2)
+    webmock (3.18.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
+PLATFORMS
+  x86_64-darwin-22
+
+DEPENDENCIES
+  bundler (>= 2)
+  faker (~> 2.18)
+  openai_image_generator!
+  rake (~> 13.0)
+  rspec (~> 3.0)
+  rubocop (~> 1.21)
+  webmock (>= 3.8)
+
+BUNDLED WITH
+   2.2.33
