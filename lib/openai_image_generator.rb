@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'uri'
+require 'net/http'
+require 'json'
 require_relative "openai_image_generator/version"
 
 module OpenaiImageGenerator
@@ -8,7 +11,7 @@ module OpenaiImageGenerator
   class Client
     API_URL = URI.parse("https://api.openai.com/v1/images/generations".freeze)
 
-    attr_accessor :api_key, :prompt, :number_images, :size
+    attr_accessor :api_key
 
     def initialize(api_key)
       @api_key = api_key
