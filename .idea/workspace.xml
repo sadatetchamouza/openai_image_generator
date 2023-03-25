@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e4ba045-e93f-4585-9ec4-e4c737fd7207" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/openai_image_generator/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/openai_image_generator/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679755504055</updated>
       <workItem from="1679755505466" duration="11000" />
-      <workItem from="1679755574211" duration="11086000" />
+      <workItem from="1679755574211" duration="11487000" />
     </task>
     <task id="LOCAL-00001" summary="Fix Github actions">
       <created>1679776166112</created>
@@ -85,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679780147550</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix bug">
+      <created>1679780226772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679780226772</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix bug">
+      <created>1679780235654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679780235654</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

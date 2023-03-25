@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    openai_image_generator (0.0.1)
+    openai_image_generator (0.0.2)
 
 GEM
   remote: https://rubygems.org/
